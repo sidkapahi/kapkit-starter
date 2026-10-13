@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // The Deploy page lets you rename this per project.
+  "name": "kapkit-starter",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "assets": { "directory": "./public" },
+  "workers_dev": true,
+  "preview_urls": true,
+  "observability": { "logs": { "enabled": true } }
+}
