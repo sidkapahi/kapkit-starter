@@ -38,7 +38,20 @@ README: fill in the sections below and delete this one.
 3. Push a branch to the new repo. A **Preview Ready** message should arrive
    with the preview link.
 
-### 3. Make this README yours
+### 3. Drop in your images
+
+Replace these placeholders in `public/`, keeping the file names:
+
+| File | Used for | Size |
+| --- | --- | --- |
+| `favicon.png` | Browser tab icon, home-screen icon, and the project icon in preview-bot | Square, 256×256 or larger |
+| `og-image.png` | Social share card when the link is pasted into Discord, Slack, iMessage, X | 1200×630 |
+| `discord-preview.png` | preview-bot's preview image | Whatever preview-bot expects |
+
+Then in `public/index.html`, change `myapp.kapkit.ca` in the `og:url` and
+`og:image` tags to your domain, and update the title and description tags.
+
+### 4. Make this README yours
 
 Replace the title, the one-liner and the **Live** line at the top, fill in
 **About**, then delete this section.
