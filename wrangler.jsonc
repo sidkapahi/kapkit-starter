@@ -7,5 +7,7 @@
   "assets": { "directory": "./public" },
   "workers_dev": true,
   "preview_urls": true,
+  // Required by the preview upload Workers Builds runs for every non-main branch.
+  "previews": {},
   "observability": { "logs": { "enabled": true } }
 }
