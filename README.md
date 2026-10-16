@@ -1,14 +1,19 @@
+# Project name
+
+One line on what this is and who it's for.
+
+**Live:** https://myapp.kapkit.ca · **Worker:** `kapkit-myapp`
+
+<!-- kapkit-starter: delete from here to the "end of starter setup" line once the project is set up. -->
+
+## Starter setup
+
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/sidkapahi/kapkit-starter)
 
-# kapkit-starter
-
-Use this as the base template for all kapkit projects!
-
-A Cloudflare Worker that serves the static files in `public/`. Click the button
-above to get a new GitHub repo and a Worker that deploys on every push, with
-preview URLs for every branch.
-
-## What to do next
+This repo is the kapKit starter. The button above gives you a new GitHub repo
+and a Cloudflare Worker that deploys on every push, with preview URLs for every
+branch. This README is copied into the new repo as the template for its own
+README: fill in the sections below and delete this one.
 
 ### 1. Start a new project
 
@@ -33,11 +38,22 @@ preview URLs for every branch.
 3. Push a branch to the new repo. A **Preview Ready** message should arrive
    with the preview link.
 
+### 3. Make this README yours
+
+Replace the title, the one-liner and the **Live** line at the top, fill in
+**About**, then delete this section.
+
+<!-- end of starter setup -->
+
+## About
+
+What the project does, and anything a newcomer should know first.
+
 ## Layout
 
 - `public/`: static site. `favicon.png` doubles as the project icon in preview-bot.
 - `src/index.js`: Worker for anything that isn't a static file (404 by default).
-- `wrangler.jsonc`: Worker config. Rename `name` per project on the Deploy page.
+- `wrangler.jsonc`: Worker config.
 
 ## Local dev
 
@@ -45,6 +61,11 @@ preview URLs for every branch.
 npm install
 npx wrangler dev
 ```
+
+## Deploys
+
+Every push to `main` deploys to production. Every other branch gets its own
+preview URL, and preview-bot posts it to Discord.
 
 Set `version` in `package.json` above `0.0.0` once you want the **Release**
 field to show in Discord.
