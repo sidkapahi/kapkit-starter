@@ -5,6 +5,19 @@
 >
 > [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/sidkapahi/kapkit-starter)
 
+> [!TIP]
+> **🖼️ Assets: drop your files here, keeping the names**
+>
+> | File | Where it shows up | Size |
+> | --- | --- | --- |
+> | 📍 [`assets/header.png`](assets/header.png) | Banner at the top of this README | 1920×1080 |
+> | 📍 [`assets/cta-button.svg`](assets/cta-button.svg) | Green button under the README intro (edit the label in the SVG) | 218×54 |
+> | 📍 [`public/favicon.png`](public/favicon.png) | Browser tab icon, and the project icon in preview-bot | 512×512 |
+> | 📍 [`public/og-image.png`](public/og-image.png) | Social share card in Discord, Slack, iMessage, X | 1920×1080 |
+> | 📍 [`public/discord-preview.png`](public/discord-preview.png) | preview-bot's preview image | Whatever preview-bot expects |
+>
+> `assets/` is for the README only; `public/` is served by the site. The share-card tags in [`public/index.html`](public/index.html) also need your domain in place of `myapp.kapkit.ca`.
+
 <details>
 <summary><b>What to do next</b></summary>
 
@@ -23,15 +36,7 @@
 
 ### 3. Drop in your images
 
-Replace these placeholders, keeping the file names:
-
-| File | Used for | Size |
-| --- | --- | --- |
-| `assets/header.png` | Banner at the top of this README | 1920×1080 |
-| `assets/cta-button.svg` | Green button under the intro; edit the label in the SVG | 218×54 |
-| `public/favicon.png` | Browser tab icon and the project icon in preview-bot | 512×512 |
-| `public/og-image.png` | Social share card in Discord, Slack, iMessage, X | 1920×1080 |
-| `public/discord-preview.png` | preview-bot's preview image | Whatever preview-bot expects |
+Replace each file in the **Assets** table above, keeping the file name.
 
 ### 4. Fill in the placeholders
 
@@ -46,6 +51,7 @@ Replace these placeholders, keeping the file names:
 
 <div align="center">
 
+<!-- 📍 asset: assets/header.png -->
 <img src="assets/header.png" alt="Project name" width="100%" />
 
 # Project name
@@ -58,6 +64,7 @@ One line on what this is and who it's for.
 
 <br/>
 
+<!-- 📍 asset: assets/cta-button.svg -->
 <a href="https://myapp.kapkit.ca/?utm_source=github&utm_medium=README+Button"><img src="assets/cta-button.svg" alt="Open app" height="54"></a>
 
 <br/>
